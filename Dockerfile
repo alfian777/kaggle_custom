@@ -14,7 +14,8 @@ ARG VSCODE_COMMIT_SHA="97dec172d3256f8ca4bfb2143f3f76b503ca0534"
 ARG VSCODE_ARCHIVE="vscode-server-linux-x64.tar.gz"
 ARG VSCODE_OWNER='microsoft'
 ARG VSCODE_REPO='vscode'
-ARG VSCODE_PYTHON_PACK="ms-python.python-2021.11.1422169775.vsix"
+#ARG VSCODE_PYTHON_PACK="ms-python.python-2021.11.1422169775.vsix"
+ARG VSCODE_PYTHON_PACK="ms-python.python-2023.1.10271009.vsix"
 
 # Update Package & Install 
 RUN apt-get update -y
